@@ -1,9 +1,7 @@
 .project {
-    display: flex;
+
     width: 100%;
-    justify-content: space-between;
-    align-items: center;
-    padding: 50px 100px 50px 100px;
+/* padding: 50px 100px 50px 100px; */
     border-top: 1px solid rgb(201, 201, 201);
     cursor: pointer;
     transition: all 0.2s;
@@ -27,7 +25,7 @@
 }
 
 .project h2 {
-    font-size: 50px;
+
     margin: 0px;
     font-weight: 400;
     transition: all 0.4s;

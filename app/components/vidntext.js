@@ -4,20 +4,20 @@ const VidnText = () => {
   return (
     <div>
       {' '}
-      <div className='flex justify-center w-3/5 mt-16'>
-        <div className=' w-[3/5] flex items-center p-12'>
-          <p className='text-[#f2f2f2]  tracking-[5.03px] text-6xl '>
+      <div className='flex justify-center sm:w-3/5 mt-16'>
+        <div className=' flex justify-center items-center p-12'>
+          <p className='text-[#f2f2f2]  tracking-[5.03px] text-2xl sm:text-6xl '>
             DESIGNING
           </p>
           <div id='flip'>
             <div>
-              <div className='text-6xl'>EXPERIENCE</div>
+              <div className='text-2xl sm:text-6xl'>EXPERIENCE</div>
             </div>
             <div>
-              <div className='text-6xl'>PRODUCTS</div>
+              <div className='text-2xl sm:text-6xl'>PRODUCTS</div>
             </div>
             <div>
-              <div className='text-6xl'>APPLICATIONS</div>
+              <div className='text-2xl sm:text-6xl'>APPLICATIONS</div>
             </div>
           </div>
         </div>

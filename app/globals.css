@@ -5,6 +5,7 @@
 
 body {
   background-color: #0a0a0a;
+  scroll-behavior: smooth;
 }
 
 @layer utilities {
@@ -130,4 +131,56 @@ body {
 }
 
 
-/* works */
+/* Big Marquee */
+.clipbg {
+  background: url('../public/bg-clip.jpg');
+  background-size: cover;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.scroller[data-animated="true"] {
+  animation: scrolling linear;
+  animation-timeline: scroll(root);
+
+}
+
+.scroller[data-direction="right"] {
+  animation-direction: reverse;
+}
+
+.scroller2[data-animated="true"] {
+  animation: scrolling2 linear;
+  animation-timeline: scroll(root);
+
+}
+
+.scroller2[data-direction="right"] {
+  animation-direction: reverse;
+}
+
+@keyframes scrolling2 {
+  from {
+    transform: translateX(45%);
+    /* Start from the right side of the container */
+  }
+
+  to {
+    transform: translateX(-60% + 1rem);
+    /* Move to the left side of the container */
+  }
+}
+
+@keyframes scrolling {
+  from {
+    transform: translateX(10%);
+
+    /* Start from the right side of the container */
+  }
+
+  to {
+    transform: translate(calc(-40% + 10rem));
+
+  }
+}

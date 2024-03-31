@@ -89,14 +89,17 @@ export default function Modal({ modal, projects }) {
         variants={scaleAnimation}
         initial='initial'
         animate={active ? 'enter' : 'closed'}
-        className={styles.modalContainer}
+        className={`sm:inline hidden ${styles.modalContainer}`}
       >
-        <div style={{ top: index * -100 + '%' }} className={styles.modalSlider}>
+        <div
+          style={{ top: index * -100 + '%' }}
+          className={`sm:inline hidden ${styles.modalSlider}`}
+        >
           {projects.map((project, index) => {
             const { src, color } = project;
             return (
               <div
-                className={styles.modal}
+                className={`sm:inline hidden ${styles.modal}`}
                 style={{ backgroundColor: color }}
                 key={`modal_${index}`}
               >
