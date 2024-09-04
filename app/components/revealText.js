@@ -3,7 +3,7 @@ import React from 'react';
 const RevealText = () => {
   return (
     <div>
-      <div className='flex justify-center  w-11/12 sm:w-4/5 mt-16'>
+      <div className='flex justify-center  w-11/12 sm:w-4/5 md:mt-16'>
         <div className='  sm:w-[4/5] flex items-center p-6 sm:p-12 '>
           {/* Start */}
           <div className=' h-[400vh] [view-timeline-name:--reveal-wrapper] '>
