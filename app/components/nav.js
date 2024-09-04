@@ -55,9 +55,9 @@ const Nav = () => {
             </div>
           </Link>
           <div className='flex flex-row'>
-            <p className='text-[#f2f2f2] nav-arrow-trigger  sm:tracking-[5.03px] text-lg sm:text-2xl cursor-pointer'>
-              CONTACT
-            </p>
+            <a target='_blank' href="https://drive.google.com/file/d/18D_vQJ5_jaxMqmRG1X5B-CzrJOqlfnS1/view?usp=drive_link" className='text-[#f2f2f2] nav-arrow-trigger  sm:tracking-[5.03px] text-lg sm:text-2xl cursor-pointer'>
+              RESUME
+            </a>
             <Image
               src='/arrow-nav.svg'
               width='15'

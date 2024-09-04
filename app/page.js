@@ -11,10 +11,19 @@ import gsap from 'gsap';
 import Stack from './components/stack';
 import Contact from './components/contact';
 import BigMarquee from './components/bigMarquee';
+
+import { clsx } from "clsx";
+import { twMerge } from "tailwind-merge";
+
+
+
+
 // import Video from 'next-video';
 // import videoLoop from '/videos/herovid.mp4';
 
 export default function Home() {
+  const words = ["better", "cute", "beautiful", "modern"];
+
   useEffect(() => {
     async () => {
       const LocomotiveScroll = (await import('locomotive-scroll')).default;

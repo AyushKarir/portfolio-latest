@@ -9,7 +9,7 @@ const RevealText = () => {
           <div className=' h-[400vh] [view-timeline-name:--reveal-wrapper] '>
             <div className='sticky top-0 min-h-screen flex items-center'>
               <div>
-                <p className='z-40 blend supports-[animation-timeline]:reveal-text text-[#a9a9a9] text-3xl sm:text-5xl  leading-loose  blend reveal-text'>
+                <p className='z-40 blend supports-[animation-timeline]:reveal-text text-[#a9a9a9] text-2xl md:text-5xl  leading-relaxed md:leading-loose  blend reveal-text'>
                   I am a highly skilled full stack developer based in India,
                   boasting over 4 years of experience in web development.
                   Specializing in modern web and app development, I prioritize

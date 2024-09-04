@@ -39,7 +39,7 @@ const Contact = () => {
       <div className='flex justify-center items-center'>
         <div className='w-2/3 '>
           <div className='flex'>
-            <p className='text-4xl sm:text-6xl nav-arrow-trigger cursor-pointer text-[#ccc]  tracking-snug '>
+            <p className='text-3xl sm:text-6xl nav-arrow-trigger cursor-pointer text-[#ccc]  tracking-snug '>
               Github
             </p>
             <Image
@@ -50,7 +50,7 @@ const Contact = () => {
             />
           </div>
           <div className='flex'>
-            <p className='text-4xl sm:text-6xl nav-arrow-trigger cursor-pointer text-[#ccc]  tracking-snug '>
+            <p className='text-3xl sm:text-6xl nav-arrow-trigger cursor-pointer text-[#ccc]  tracking-snug '>
               LinkedIn
             </p>
             <Image
@@ -61,7 +61,7 @@ const Contact = () => {
             />
           </div>
           <div className='flex'>
-            <p className='text-4xl sm:text-6xl nav-arrow-trigger cursor-pointer text-[#ccc]  tracking-snug '>
+            <p className='text-3xl sm:text-6xl nav-arrow-trigger cursor-pointer text-[#ccc]  tracking-snug '>
               Leetcode
             </p>
             <Image
@@ -72,7 +72,7 @@ const Contact = () => {
             />
           </div>
           <div className='flex'>
-            <p className='text-4xl sm:text-6xl nav-arrow-trigger cursor-pointer text-[#ccc]  tracking-snug '>
+            <p className='text-3xl sm:text-6xl nav-arrow-trigger cursor-pointer text-[#ccc]  tracking-snug '>
               X
             </p>
             <Image
@@ -84,7 +84,7 @@ const Contact = () => {
           </div>
           <div className='flex flex-col sm:flex-row items-baseline justify-between'>
             <div className='flex'>
-              <p className='text-4xl sm:text-6xl nav-arrow-trigger cursor-pointer text-[#ccc]  tracking-snug '>
+              <p className='text-3xl sm:text-6xl nav-arrow-trigger cursor-pointer text-[#ccc]  tracking-snug '>
                 Gmail
               </p>
               <Image
