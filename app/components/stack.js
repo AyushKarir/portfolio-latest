@@ -33,8 +33,8 @@ const Stack = () => {
           />
         </div>
         <div data-scroll data-scroll-speed='0.7'>
-          <h1 className=' text-[#f2f2f2] hidden sm:text-[100px] relative -ml-16 z-40'>
-            Stuff I Use
+          <h1 className=' text-[#f2f2f2] hidden md:inline sm:text-[100px] relative ml-4 z-40'>
+            Stack
           </h1>
           <h1 className=' text-[#f2f2f2] text-[70px] sm:hidden relative  z-40'>
             Stack

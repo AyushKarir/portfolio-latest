@@ -12,7 +12,7 @@ const VidnText = () => {
       {' '}
       <div className='flex justify-center w-full md:w-3/5 mt-16'>
         <div className=' flex justify-center items-center md:p-12 p-4'>
-          <p className='text-[#f2f2f2] tracking-[3.03px] md:tracking-[5.03px] text-[22px] sm:text-2xl md:text-6xl '>
+          <p className='text-[#f2f2f2] tracking-[3.03px] md:tracking-[5.03px] text-[22px] sm:text-2xl md:text-5xl '>
             BUILDING
             <FlipWords words={words} />
           </p>

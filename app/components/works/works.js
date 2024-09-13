@@ -6,20 +6,23 @@ import Modal from './modal';
 const Works = () => {
   const projects = [
     {
-      title: 'SWITTER',
-      src: 'switter.png',
-      nopes: 'https://github.com/AyushKarir/switter/tree/master',
+      title: 'LiveCodeSpace',
+      src: 'livecodespace.png',
+      nopes: 'https://livecodespace.onrender.com',
+      stack: 'React, Socket.io, NodeJS'
     },
     {
-      title: 'ANNAPURNA',
-      src: 'annapurna.png',
-      nopes: 'https://devfolio.co/projects/annapurna-dd5d',
+      title: 'Buzz',
+      src: 'getbuzz.png',
+      nopes: 'https://getbuzz.vercel.app',
+      stack: 'Next.js, TypeScript, PostgreSQL, Webhooks, Supabase'
     },
     {
-      title: 'TRAVELA',
+      title: 'Travela',
       src: 'travela.png',
       nopes:
         'https://drive.google.com/file/d/1Da6aP4p-5HybVPtz6UhU3erqJH_Lydxy/view',
+      stack: 'Figma, Prototyping'
     },
   ];
 
@@ -37,6 +40,7 @@ const Works = () => {
             title={project.title}
             setModal={setModal}
             nopes={project.nopes}
+            stack={project.stack}
           />
         );
       })}
