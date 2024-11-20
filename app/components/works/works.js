@@ -21,7 +21,7 @@ const Works = () => {
       title: 'Travela',
       src: 'travela.png',
       nopes:
-        'https://drive.google.com/file/d/1Da6aP4p-5HybVPtz6UhU3erqJH_Lydxy/view',
+        'https://www.figma.com/proto/aKXT2KthUeFIyZbXoL7e8L/Adobe-Project?page-id=0%3A1&node-id=3-1754&viewport=732%2C-3562%2C1.77&scaling=scale-down&starting-point-node-id=3%3A1754',
       stack: 'Figma, Prototyping'
     },
   ];
